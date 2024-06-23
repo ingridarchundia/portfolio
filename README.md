@@ -1,2 +1,4 @@
 # portfolio
-Primer repositorio remoto controlado mediante comandos de Git
+
+Hola, este es el repositorio de mi página portfolio C:
+Es un trabajo en progreso
