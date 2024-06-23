@@ -1,0 +1,188 @@
+:root{
+    --darkgreen-main-color: #283D3B;
+    --seagreen-main-color: #197278;
+    --sandy-main-color: #EDDDD4;
+    --orangeish-main-color: #C44536;
+    --ashyred-main-color: #772E25;
+    --header-font: "Playwrite Mx";
+    --body-font: "Poppins";
+    }
+    
+    *{
+        background-color: #283D3B;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/000/276/463/original/white-background-vector.jpg);
+        background-blend-mode: multiply;
+    }
+    
+    body{
+        font-size: 13px;
+        font-family: 'Poppins';
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    
+    .divnav{
+        margin: 0px;
+        text-align: center;
+        width: auto;
+        height: 55px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .navboton{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 0.5em 0.5em;
+        background-color: var(--darkgreen-main-color);
+        border: 2px solid var(--sandy-main-color);
+        border-radius: 6px;
+        transition: all 0.3s;
+    }
+    
+    .navboton a{
+        color: var(--sandy-main-color);
+        text-decoration: none;
+        font-family: var(--header-font);
+        font-size: 15px;
+    }
+    
+    .navboton:hover{
+        transform: translateX(-5px);
+        background-color: var(--seagreen-main-color);
+        box-shadow: 3px 3px 3px var(--sandy-main-color);
+    }
+    
+    .navboton>a:hover{
+        background-color: var(--seagreen-main-color);
+    }
+    
+    /*===========================BODY=======================*/
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*===============NAME TEXT EFFECT==================*/
+    
+    .container{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /*https://codepen.io/DuskoStamenic/pen/QWaoBPY*/
+    .container h1{
+        font-size: 10rem;
+        text-transform: uppercase;
+        font-family: 'Gambetta', serif;
+        letter-spacing: -3px;
+        transition: 800ms ease;
+        font-variation-settings: "wght" 311;
+        margin-bottom: 0.8rem;
+        color: PaleGoldenRod;
+        outline: none;
+        text-align: center;
+      }
+      
+      h1:hover {
+        font-variation-settings: "wght" 582; 
+        letter-spacing: 3px;
+      }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+    }
+    
+    .sectionabout{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 200px;
+        height: auto;
+        justify-content: flex-start;
+        padding: 10px;
+        background-color: var(--darkgreen-main-color);
+        color: #EDDDD4;
+    }
+    
+    .bodyboton{
+        width: 12vh;
+        height: auto;
+        background-color: var(--sandy-main-color);
+    }
+    
+    .bodyboton a{
+        text-decoration: none;
+        background-color: #EDDDD4;
+        color: #283D3B;
+    }
+    
+    .bodyboton:hover{
+        background-color: #772E25;
+    }
+    .bodyboton a:hover{
+        background-color: #772E25;
+        color: #EDDDD4;
+        text-shadow: var(--orangeish-main-color) 2px 1px;
+    }
+    
+    
+    .pfp{
+        width: 40vw;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 1px 3px 9px 0 var(--sandy-main-color);
+        opacity: 90%;
+        filter: saturate(90%);
+    } 
+    
+    .socials{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    #linkedin img{
+        width: 3rem;
+        height: auto;
+        opacity: 80%;
+        background-color: #EDDDD4;
+        box-shadow: rgba(240, 75, 46, 0.4) 5px 5px, rgba(240, 53, 46, 0.3) 10px 10px, rgba(240, 53, 46, 0.2) 15px 15px, rgba(240, 53, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+    }
+    
+    #github img{
+        width: 3rem;
+        height: auto;
+        opacity: 80%;
+        background-color: #EDDDD4;
+        box-shadow: rgba(240, 75, 46, 0.4) 5px 5px, rgba(240, 53, 46, 0.3) 10px 10px, rgba(240, 53, 46, 0.2) 15px 15px, rgba(240, 53, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+    }
+    
+    #linkedin img:hover{
+        opacity: 100%;
+        transition: 1s;
+        background-color: var(--sandy-main-color);
+        border-radius: 50%;
+    }
+    
+    #github img:hover{
+        opacity: 100%;
+        transition: 1s;
+        background-color: var(--sandy-main-color);
+        border-radius: 50%;
+    }

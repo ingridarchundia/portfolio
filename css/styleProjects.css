@@ -1,0 +1,71 @@
+:root{
+    --darkgreen-main-color: #283D3B;
+    --seagreen-main-color: #197278;
+    --sandy-main-color: #EDDDD4;
+    --orangeish-main-color: #C44536;
+    --ashyred-main-color: #772E25;
+    --header-font: "Playwrite Mx";
+    --body-font: "Poppins";
+    }
+    
+
+    body{
+        font-size: 13px;
+        font-family: 'Poppins';
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    header{
+        background-color: var(--darkgreen-main-color);
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divnav{
+        margin: 0px;
+        text-align: center;
+        width: auto;
+        height: 55px;
+        display: flex;
+        gap: 20px;
+        background-color: #283D3B;
+    }
+    
+    .navboton{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 0.5em 0.5em;
+        background-color: var(--darkgreen-main-color);
+        border: 2px solid var(--sandy-main-color);
+        border-radius: 6px;
+        transition: all 0.3s;
+    }
+    
+    .navboton a{
+        color: var(--sandy-main-color);
+        text-decoration: none;
+        font-family: var(--header-font);
+        font-size: 15px;
+    }
+    
+    .navboton:hover{
+        transform: translateX(-5px);
+        background-color: var(--seagreen-main-color);
+        box-shadow: 3px 3px 3px var(--sandy-main-color);
+    }
+    
+    .navboton>a:hover{
+        background-color: var(--seagreen-main-color);
+    }
+    /*===================CARDS=======================*/
+
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        padding: 100px;
+    }
