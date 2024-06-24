@@ -34,33 +34,28 @@
         background-color: #283D3B;
     }
     
-    .navboton{
+    
+    #btn{
         font-size: 1.5rem;
-        font-weight: 500;
         padding: 0.5em 0.5em;
         background-color: var(--darkgreen-main-color);
         border: 2px solid var(--sandy-main-color);
         border-radius: 6px;
         transition: all 0.3s;
-    }
-    
-    .navboton a{
         color: var(--sandy-main-color);
         text-decoration: none;
         font-family: var(--header-font);
         font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    
-    .navboton:hover{
+
+    #btn:hover{
         transform: translateX(-5px);
         background-color: var(--seagreen-main-color);
         box-shadow: 3px 3px 3px var(--sandy-main-color);
     }
-    
-    .navboton>a:hover{
-        background-color: var(--seagreen-main-color);
-    }
-
 /*================================== DESCRIPCION =================================*/
 #description{
     display: flex;

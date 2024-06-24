@@ -14,6 +14,44 @@
 /*Playwrite Mexico Regular*/
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
+
+/*MOBILE*/
+@media (min-width: 320px) and (max-width: 426px){
+    .container{
+        width: auto;
+        height: 10vh;
+        height: auto;
+    }
+
+    .container h1{
+        font-size: 5rem;
+        text-transform: none;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .pfp{
+        width: 85vw;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 1px 3px 9px 0 var(--sandy-main-color);
+        opacity: 90%;
+    } 
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+
+
+
 </style>
 
 </head>
@@ -37,7 +75,7 @@
 
     <div class="sectionabout">
         <h1 class="intro">I'm a web developer</h1>
-        <button class="bodyboton"><a href="about.html">ABOUT ME</a></button>
+        <a class="btn btn-primary" href="about.html" role="button">About me</a>
         <br>
         <h2><strong>My socials</strong></h2>
         <div class="socials">
@@ -47,7 +85,8 @@
         <br>
         <h2>My work</h2>
         <p>As a Full Stack Developer Jr I've been exploring my habilities with these fun projects you can check out here</p>
-        <button class="bodyboton"><a href="projects.html">BROWSE PORTFOLIO</a></button>    
+        
+        <a class="btn btn-primary" href="projects.html" role="button">See my projects</a>   
     </div>
 
 
@@ -58,9 +97,9 @@
 </div>
 
 <nav class="divnav">
-    <button class="navboton"><a href="index.html">Home</a></button>
-    <button class="navboton"><a href="about.html">About</a></button>
-    <button class="navboton"><a href="projects.html">My projects</a></button>
+    <a class="btn btn-primary" href="index.html" role="button">Home</a>
+    <a class="btn btn-primary" href="about.html" role="button">About</a>
+    <a class="btn btn-primary" href="projects.html" role="button">Projects</a>
 </nav>
 
 
